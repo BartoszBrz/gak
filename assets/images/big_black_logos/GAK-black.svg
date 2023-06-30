@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="Warstwa_1"
+   data-name="Warstwa 1"
+   viewBox="0 0 150.00001 36.302469"
+   version="1.1"
+   width="150.00002"
+   height="36.302471">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>RGB_GAK_logo podstawowe</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#100c08;}</style>
+  </defs>
+  <title
+     id="title6">RGB_GAK_logo podstawowe</title>
+  <path
+     class="cls-1"
+     d="m 19.709427,14.540113 v 7.63942 h 6.84311 a 8.3799157,8.3799157 0 0 1 -5.37327,4.61416 c -0.0484,0 -0.44281,0.11536 -0.59538,0.14513 a 7.9817579,7.9817579 0 0 1 -2.2587,0.14884 8.3761944,8.3761944 0 0 1 -6.89148,-4.50997 8.8562164,8.8562164 0 0 1 -0.97121,-4.83743 8.4096844,8.4096844 0 0 1 1.70799,-4.39462 9.3027482,9.3027482 0 0 1 3.2634,-2.60477 c 1.74148,-0.8632899 4.12298,-0.8260799 4.37601,-0.8111999 0.26048,-0.56933 4.09321,-8.99762 4.16763,-9.1353 0.026,-0.0633 -2.9992,-0.93771 -6.69797,-0.77399 a 18.151522,18.151522 0 1 0 18.9776,19.4204199 17.563589,17.563589 0 0 0 -0.37211,-4.88208 z"
+     id="path8"
+     style="stroke-width:0.37211" />
+  <path
+     class="cls-1"
+     d="m 142.14105,20.493873 a 7.8626829,7.8626829 0 1 0 7.85896,7.86269 7.8589617,7.8589617 0 0 0 -7.85896,-7.86269 z"
+     id="path10"
+     style="stroke-width:0.37211" />
+  <polygon
+     class="cls-1"
+     points="322.71,344.77 279.17,250.49 278.72,250.49 248.16,250.49 247.7,250.49 204.16,344.77 235.18,344.77 263.44,283.6 291.7,344.77 "
+     id="polygon12"
+     transform="matrix(0.37210994,0,0,0.37210994,-35.753552,-92.627547)" />
+  <polygon
+     class="cls-1"
+     points="373.56,297.63 406.43,344.77 437.44,344.77 404.57,297.63 437.44,250.49 406.43,250.49 "
+     id="polygon14"
+     transform="matrix(0.37210994,0,0,0.37210994,-35.753552,-92.627547)" />
+  <polygon
+     class="cls-1"
+     points="344.93,250.49 344.93,344.77 373.56,344.77 373.56,297.63 373.56,297.27 373.56,250.49 "
+     id="polygon16"
+     transform="matrix(0.37210994,0,0,0.37210994,-35.753552,-92.627547)" />
+</svg>

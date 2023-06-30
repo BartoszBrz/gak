@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Silka';
+    src: url("assets/fonts/Silka-Regular.woff2") format("woff2"), url("../fonts/Silka-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url("assets/fonts/Silka-Medium.woff2") format("woff2"), url("../fonts/Silka-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url("assets/fonts/Silka-Light.woff2") format("woff2"), url("../fonts/Silka-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url("assets/fonts/Silka-Thin.woff2") format("woff2"), url("../fonts/Silka-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url("assets/fonts/Silka-Bold.woff2") format("woff2"), url("../fonts/Silka-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body.login {background-color: #eff3f7;}
+body.login div#login {
+    width: 70vh;
+    padding: 10% 0 0;
+    max-width: 560px;
+}
+
+body.login label {
+    font-family: 'Silka';
+    font-size: 18px;
+    color: #232323;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 767px) {
+    body.login div#login {
+        width: 90%;
+    }
+}
+
+body.login div#login h1 {}
+body.login div#login h1 a {
+    background-image: url(assets/images/gak-logo-big.svg);
+    width: 100%;
+    background-size: contain;
+    max-width: 300px;
+    max-height: 55px;
+    margin-bottom: 30px;
+}
+
+body.wp-core-ui .button-group.button-large .button, body.wp-core-ui .button.button-large {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    float: none;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #000;
+    border: 2px solid #000;
+    text-transform: lowercase;
+    color: #fff;
+    padding: 10px 20px;
+    display: table;
+    line-height: 18px;
+    transition: ease-out 0.3s;
+    font-family: 'Silka';
+    font-weight: 500;
+}
+
+body.login form .input, body.login form input[type=checkbox], body.login input[type=text] {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-family: 'Silka';
+    font-size: 18px;
+    color: #232323;
+    padding: 5px 10px;
+    font-weight: 300;
+    background: #e6e5e5;
+    font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: .0625rem;
+    padding: .1875rem .3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    border-radius: 0;
+}
+
+body.login form {
+    background: #fff;
+    box-shadow: none;
+    padding: 5vh;
+}
+
+body.login #backtoblog a:hover, body.login #nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+body.login div#login form#loginform {
+	background: #fff;
+    box-shadow: none;
+    padding: 5vh;
+    border: 1px solid #b2b2b2;
+}
+
+body.login form {
+    border: 1px solid #b2b2b2;
+}
+
+body.login .button.wp-hide-pw .dashicons {
+    color: #100c08;
+}
+
+body.login .button.wp-hide-pw:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 1px #000;
+
+}
+
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {
+    font-family: 'Silka';
+    font-size: 18px;
+    color: #232323;
+    text-transform: lowercase;
+	font-weight: 300;
+}
+body.login div#login form#loginform input {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-family: 'Silka';
+    font-size: 18px;
+    color: #232323;
+    padding: 5px 10px;
+    font-weight: 300;
+    background: #e6e5e5;  
+    border-radius: 0;
+}
+
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {display: none;}
+body.login div#login form#loginform p.forgetmenot input#rememberme {display: none;}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit:hover { background-color: #1a181c; border-color: #1a181c;}
+body.login div#login form#loginform p.submit input#wp-submit {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    float: none;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #000;
+    border: 2px solid #000;
+    text-transform: lowercase;
+    color: white;
+    padding: 10px 20px;
+    display: table;
+    line-height: 18px;
+    transition: ease-out 0.3s;
+    font-family: 'Silka';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+body.login a {color: #000; }
+body.login #login_error,
+body.login .message {
+    background: #fff; 
+    border-left: 8px solid #000;
+	color: #232323;
+    font-family: 'Silka';
+    font-size: 16px;
+    text-transform: lowercase;
+	font-weight: 300;
+    box-shadow: none;
+}

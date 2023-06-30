@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="Warstwa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 23.999999 23.999998"
+   xml:space="preserve"
+   width="24"
+   height="24"><metadata
+   id="metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs15" />
+<g
+   id="g10"
+   transform="matrix(0.0807972,0,0,0.08079992,-12.048478,-12.048884)">
+	<path
+   d="M 446.16,297.64 V 149.12 c -77.07,0 -140.5,58.02 -148.52,132.53 V 149.12 L 149.12,297.64 v 148.51 h 148.52 v 0 -148.51 z"
+   id="path2" />
+	<polygon
+   points="446.15,297.64 297.64,446.15 446.15,446.15 "
+   id="polygon4" />
+	<polygon
+   points=""
+   id="polygon6" />
+	<polygon
+   points=""
+   id="polygon8" />
+</g>
+</svg>
