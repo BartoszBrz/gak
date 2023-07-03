@@ -747,6 +747,14 @@ $(function() {
         var selected = $(this).attr('aria-label');
         set_filter(fname, (current !== selected ? selected : ''));
     });
+    // wybór po autorach
+    $main.on('input', '#post_author', function(e) { 
+        e.preventDefault();
+        var fauthor = 'post_author';
+        var current = get_filter(fauthor);  
+        var selected = this.value;
+        set_filter(fauthor, (current !== selected ? selected : ''));
+    });
 
     $main.on('click', '.gak-btn-filter-events', function(e) {
         $form.submit();

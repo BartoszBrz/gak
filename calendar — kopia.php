@@ -48,7 +48,7 @@ $f_tag = (!empty($_GET['tag']) && in_array($_GET['tag'], $allowed_tags) ? $_GET[
 $f_term = (!empty($_GET['dla']) ? $_GET['dla'] : '');
 $f_terms = array_intersect($allowed_terms, explode('+', $f_term));
 $f_paged = max(1, (!empty($_GET['strona']) ? (int)$_GET['strona'] : 1));
-$f_post_author =  !empty($_GET['post_author']) ? (int)$_GET['post_author'] : '';
+
 $prev_moyr = date('m-Y', strtotime('-1 month', $f_date_ts));
 $next_moyr = date('m-Y', strtotime('+1 month', $f_date_ts));
 $month_name = date_i18n('F', $f_date_ts);
@@ -135,9 +135,6 @@ if(!empty($f_date)) {
         ),
     );
 }
-if(!empty($f_post_author)) {
-    $events_args['author'] = $f_post_author;
-}
 if(!empty($f_tag)) {
     $events_args['tag'] = $f_tag;
 }
@@ -154,7 +151,6 @@ if(!empty($f_terms)) {
 if(isset($GLOBALS['facility_category'])) {
     $events_args['category_name'] = $GLOBALS['facility_category'];
 }
-
 
 $post_query = new WP_Query($events_args);
 
@@ -173,10 +169,6 @@ $base_url = strtok($_SERVER['REQUEST_URI'], '?');
     <input name="data" id="data" type="text" value="<?php echo $f_date; ?>" title="Data">
     <label for="tag">Tag</label>
     <input name="tag" id="tag" type="text" value="<?php echo $f_tag; ?>" title="Tag">
-
-    <label for="post_author">Autor</label>
-    <input name="post_author" id="" type="text" value="<?php echo $f_post_author; ?>" title="Autor">
-
     <label for="dla">Dla kogo</label>
     <input name="dla" id="dla" type="text" value="<?php echo $f_term; ?>" title="Dla kogo">
     <input type="submit" value="Wyszukaj wydarzenie" style="display: none;" title="Przycisk">
@@ -287,12 +279,11 @@ $base_url = strtok($_SERVER['REQUEST_URI'], '?');
 
             // Get the author's display name
             $author_name = get_the_author();
-            $author_ID = get_the_author_meta('ID');
 
             // Exclude "artneo" and "admin" from the array
             if ($author_name !== 'Artneo' && $author_name !== 'Admin') {
                 // Store the author's name in the array
-                $authors[$author_ID] = $author_name;
+                $authors[] = $author_name;
             }
         }
     }
@@ -304,16 +295,16 @@ $base_url = strtok($_SERVER['REQUEST_URI'], '?');
     $deduplicatedAuthors = array_unique($authors);
     ?>
         <div class="uk-flex uk-flex-middle gak_calendar_authors_holder">
-           <label for="gak_post_author"  class="uk-margin-small-right" >Autor</label>
-            <select class="gak_calendar_authors_filter" name="gak_post_author" id="post_author">
+           <label for="gak_calendar_authors_filter"  class="uk-margin-small-right" >Autor</label>
+            <select class="" name="gak_calendar_authors_filter" id="gak_calendar_authors_filter">
                 <option value=""></option>
-                <?php foreach ($deduplicatedAuthors as $author_ID => $author): ?>
-                    <option value="<?php echo  $author_ID; ?>" <?= ($f_post_author ==$author_ID) ? ' selected ' : ''?>>
-                    <?php echo $author; ?>
-                    </option>
+                <?php foreach ($deduplicatedAuthors as $author): ?>
+                    <option value="<?php echo $author; ?>"><?php echo $author; ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
+
+
                         <ul class="gak-terms-ul">
                 
                         <?php
