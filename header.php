@@ -121,7 +121,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -251,7 +251,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -659,7 +659,7 @@
 
                 <ul uk-accordion>
                     <li>
-                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                         <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -718,7 +718,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -991,7 +991,7 @@
 
                 <ul uk-accordion>
                     <li>
-                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                         <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -1051,7 +1051,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -1326,7 +1326,7 @@
 
                 <ul uk-accordion>
                     <li>
-                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                         <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -1385,7 +1385,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -1659,7 +1659,7 @@
 
                     <ul uk-accordion>
                         <li>
-                        <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                        <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                             <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -1719,7 +1719,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -2003,7 +2003,7 @@
 
                 <ul uk-accordion>
                     <li>
-                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                         <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -2064,7 +2064,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -2594,7 +2594,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -2694,7 +2694,7 @@
 
                 <ul uk-accordion>
                     <li>
-                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe placówki</a>
+                    <a class="uk-accordion-title gak-places-mobile" href="#">pozostałe miejsca</a>
                         <div class="uk-accordion-content">
                 <ul class="gak-places-ul">
                     <?php
@@ -2839,7 +2839,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php
@@ -2973,7 +2973,7 @@
 
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-                <p class="gak-places-mobile">placówki</p>
+                <p class="gak-places-mobile">Miejsca</p>
 
                 <ul class="gak-places-ul">
                     <?php

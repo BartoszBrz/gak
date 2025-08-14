@@ -14015,7 +14015,7 @@ a:hover,
 
 .gak-places-mobile {
     color: rgba(255, 255, 255, 0.5) !important;
-    font-size: 0.5625rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.0025rem;
@@ -20830,6 +20830,12 @@ textarea {
     background-size: cover;
 }
 
+.menu-item-object-placowki:last-child
+{
+    background: url("../images/menu-icons/mobilnydomkultury.svg") no-repeat center center;
+    background-size: cover;
+}
+
 .postid-146 .gak-facility-banner .icon {
     width: 26px;
 }
@@ -21860,6 +21866,15 @@ body .cli-tab-footer .wt-cli-privacy-accept-btn {
 .z-link .z-img
 {
     background: #000;
+}
+
+@media only screen and (max-width: 960px)
+{
+    #cookie-law-info-again
+    {
+        right: 0 !important;
+        bottom: 55px !important;
+    }
 }
 
 @media only screen and (max-width: 870px)
