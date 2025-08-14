@@ -13565,6 +13565,7 @@ a:focus {
     top: -40px;
     z-index: 0;
     pointer-events: none;
+    display: none !important;
 }
 
 @media only screen and (max-width: 1680px) {
@@ -21792,4 +21793,100 @@ body .cli-tab-footer .wt-cli-privacy-accept-btn {
     border-radius: .5rem;
     padding: 0 10px;
     border: 1px solid #b7b7b7;
+}
+
+/* new */
+.z-subtext
+{
+    margin-top: 28px;
+}
+.z-subtext p
+{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.z-img
+{
+    width: calc(100% - 19px);
+    object-fit: cover;
+    height: 170px;
+}
+
+.z-bottom
+{
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding-inline: 35px 45px;
+    height: 170px;
+}
+
+.z-bottom h3
+{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.z-link
+{
+    display: flex;
+    flex-direction: column;
+    height: 96%;
+    width: 96%;
+    margin-inline: auto;
+    background: #000;
+}
+
+.z-li
+{
+    transition: transform .2s;
+}
+
+.z-li:hover
+{
+    transform: translateY(-3px)
+}
+
+.z-grid
+{
+    margin-top: 40px;
+}
+
+.z-link .z-img
+{
+    background: #000;
+}
+
+@media only screen and (max-width: 870px)
+{
+    .z-bottom
+    {
+        padding-left: 20px;
+    }
+    .z-bottom h3
+    {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 640px)
+{
+    .z-link
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 420px)
+{
+    .z-subtext p
+    {
+        font-size: 17px;
+    }
 }
