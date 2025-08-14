@@ -57,7 +57,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -173,7 +173,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big-white.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -303,7 +303,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big-white.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -438,7 +438,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id2">
@@ -770,7 +770,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id2">
@@ -1103,7 +1103,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id2">
@@ -1437,7 +1437,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id2">
@@ -1775,7 +1775,7 @@
                     <div class="gak-site-logo-container">
 
                         <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big-white.svg" alt="Logo GAK" title="Logo GAK" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                         </a>
 
                         <div class="gak-menu-box" uk-toggle="target: #my-id2">
@@ -2159,7 +2159,7 @@
                         <div class="gak-site-logo-container">
 
                             <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big-white.svg" alt="Logo GAK" title="Logo GAK" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                             </a>
 
                             <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -2347,7 +2347,7 @@
                     <div class="gak-site-logo-container">
 
                         <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                         </a>
 
                         <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -2527,7 +2527,7 @@
                 <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                     </a>
 
                     <div class="gak-menu-box" uk-toggle="target: #my-id">
@@ -2896,7 +2896,7 @@
             <div class="gak-site-logo-container">
 
                     <a href="<?php echo get_home_url(); ?>" class="gak-site-logo" title="Strona główna GAK">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gak-logo-big.svg" alt="Logo GAK" title="Logo GAK" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/GAK-black.svg" alt="Logo GAK" title="Logo GAK" />
                 </a>
 
                 <div class="gak-menu-box" uk-toggle="target: #my-id">
